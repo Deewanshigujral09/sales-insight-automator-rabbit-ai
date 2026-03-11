@@ -1,0 +1,18 @@
+{
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "no-process-exit": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "eqeqeq": ["error", "always"]
+  }
+}

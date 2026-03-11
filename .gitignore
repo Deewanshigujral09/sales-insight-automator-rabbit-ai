@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+build/
+dist/
+.next/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Test coverage
+coverage/
