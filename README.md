@@ -17,7 +17,7 @@ Follow the steps below to run the application locally.
 
 # 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/sales-insight-automator.git\
+git clone https://github.com/Deewanshigujral09/sales-insight-automator-rabbit-ai.git
 cd sales-insight-automator
 
 ------------------------------------------------------------------------
@@ -56,7 +56,7 @@ MAX_FILE_SIZE_MB=10
 
 From the **root directory**, run the following command:
 
-docker compose up --build
+**docker compose up --build**
 
 Docker will automatically:
 
@@ -152,8 +152,6 @@ sales-insight-automator\
 
 After configuring `.env`, the entire application can be started using:
 
-docker compose up --build
+**docker compose up --build**
 
 ------------------------------------------------------------------------
-
-Built for **Rabbitt AI Engineering Sprint**.
